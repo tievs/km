@@ -1,10 +1,10 @@
 package utils
 
 import (
+	"github.com/tievs/km/models"
 	"io/ioutil"
 	"os"
 	"strings"
-	"tievs.com/km/models"
 )
 type Errors struct {
 	E []error `json:"errors" bson:"errors"`

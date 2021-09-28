@@ -2,11 +2,11 @@ package utils
 
 import (
 	"fmt"
+	"github.com/tievs/km/models"
 	"io"
 	"mime/multipart"
 	"os"
 	"strings"
-	"tievs.com/km/models"
 )
 
 func PostUpload(file *multipart.FileHeader) (models.File,error) {

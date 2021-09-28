@@ -1,13 +1,12 @@
 package main
 
 import (
-
 	"github.com/labstack/echo/v4"
 	"github.com/labstack/echo/v4/middleware"
+	"github.com/tievs/km/controllers"
+	"github.com/tievs/km/db"
 	"net"
 	"strings"
-	"tievs.com/km/controllers"
-	"tievs.com/km/db"
 )
 
 func init() {
